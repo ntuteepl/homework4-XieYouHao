@@ -33,6 +33,7 @@ int isPrime(int n) {
     return 0;
   }
   if (n % x == 0 && n != x) {
+    x = 2;
     return 0;
   }
   if (n == x) {
