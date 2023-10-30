@@ -18,12 +18,9 @@ int main() {
 
   for (int i = 0; i < input; i++) {
     if (isPrime(arr[i])) {
-      printf("YES");
+      printf("YES ");
     } else {
-      printf("NO");
-    }
-    if (i < input-1) {
-      printf(" ");
+      printf("NO ");
     }
   }
 

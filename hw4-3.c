@@ -9,7 +9,7 @@ int main() {
   int z = 0;
   int arr[ARRAYSIZE][3];
   while (scanf("%d %d", &s, &d) != EOF) {
-    assert(s >= 1 && s < TIME && d >= 1 && d < TIME && d > s);
+    assert(s >= 1 && s <= TIME && d >= 1 && d <= TIME && d > s);
     arr[z][0] = s;
     arr[z][1] = d;
     arr[z][2] = -1; // represent driver number
